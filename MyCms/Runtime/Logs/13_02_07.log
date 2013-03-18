@@ -1,0 +1,1283 @@
+[ 2013-02-07T12:52:22+08:00 ] 192.168.0.191 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.018038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018266s ]
+
+[ 2013-02-07T12:52:28+08:00 ] 192.168.0.191 /index.php?g=Admin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.028137s ]
+INFO: [ view_template ] --END-- [ RunTime:0.028536s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.093173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093360s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001656s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001847s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001810s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007901s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003169s ]
+
+[ 2013-02-07T12:52:28+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Index&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user 'return'@'localhost' (using password: NO) /home/return/workspace/www/mycms/MyCms/Lib/Action/Admin/IndexAction.class.php 第 11 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established /home/return/workspace/www/mycms/MyCms/Lib/Action/Admin/IndexAction.class.php 第 11 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000408s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022465s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000194s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000142s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000084s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000272s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2013-02-07T12:52:31+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.027130s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.012624s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000162s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000284s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014549s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000512s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000225s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000190s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2013-02-07T12:52:36+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Attachment&a=fileList
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `rt_attachment` [ RunTime:0.027518s ]
+SQL: SELECT * FROM `rt_attachment` ORDER BY createtime desc LIMIT 15   [ RunTime:0.022722s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000287s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029562s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000251s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000144s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000088s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000216s ]
+
+[ 2013-02-07T12:52:40+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001213s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004353s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000302s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000223s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000127s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000200s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2013-02-07T12:52:42+08:00 ] 192.168.0.191 /index.php/Admin/Category/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.018190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018448s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001753s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000207s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000124s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028142s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000309s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000216s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001289s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000185s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2013-02-07T12:52:52+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Attachment&a=fileList
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `rt_attachment` [ RunTime:0.001380s ]
+SQL: SELECT * FROM `rt_attachment` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000268s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014630s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000297s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000239s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000091s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000221s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2013-02-07T12:52:57+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001825s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000271s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000257s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005962s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000405s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000302s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000170s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001789s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000274s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2013-02-07T12:52:58+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.022873s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.010360s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000206s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021481s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000263s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000139s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000085s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000207s ]
+
+[ 2013-02-07T12:53:04+08:00 ] 192.168.0.191 /index.php/Admin/Content/del/id/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000874s ]
+
+[ 2013-02-07T12:53:06+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000854s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000171s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000122s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.004049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004142s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000155s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000128s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000071s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000195s ]
+
+[ 2013-02-07T12:53:07+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.002455s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000255s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000215s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026347s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000346s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000280s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000156s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001664s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000256s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2013-02-07T12:53:26+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000852s ]
+SQL: INSERT INTO `rt_article` (`catid`,`title`,`keywords`,`description`,`content`) VALUES (42,'test','aa','bb','aaaaa') [ RunTime:0.038100s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000150s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023331s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000367s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000229s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000106s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2013-02-07T12:53:27+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001497s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000187s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000130s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003145s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000276s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000271s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000136s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001341s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2013-02-07T12:53:29+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001195s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000381s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000211s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007862s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000185s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000071s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000199s ]
+
+[ 2013-02-07T12:53:32+08:00 ] 192.168.0.191 /index.php/Admin/Content/del/id/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001654s ]
+
+[ 2013-02-07T12:53:34+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001966s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000194s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006800s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000180s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000134s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000096s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000131s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000217s ]
+
+[ 2013-02-07T12:53:41+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001801s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000221s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000209s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005739s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000344s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000290s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000154s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000118s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2013-02-07T12:53:44+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000978s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000159s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000206s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006975s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000276s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000200s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000181s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2013-02-07T12:53:46+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001577s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000177s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004103s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000211s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000142s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000084s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2013-02-07T12:53:49+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001269s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000191s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008876s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000312s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000297s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000149s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000248s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2013-02-07T12:53:50+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001685s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000218s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000348s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007908s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000360s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000293s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000155s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001657s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2013-02-07T12:53:50+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001481s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000217s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000334s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009591s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000369s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000347s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000155s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002132s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000353s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2013-02-07T12:53:51+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001744s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000224s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000337s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006261s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000526s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000454s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000241s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002666s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2013-02-07T12:53:52+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001677s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000204s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000209s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000399s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.003908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004099s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000198s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000135s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000076s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2013-02-07T12:53:56+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000947s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000107s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000185s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005261s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000185s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000132s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000073s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000196s ]
+
+[ 2013-02-07T12:53:57+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001834s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000233s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000200s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005151s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000344s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000279s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000147s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000196s ]
+
+[ 2013-02-07T12:53:59+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000765s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000076s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000131s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.004094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004190s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000175s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2013-02-07T12:53:59+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001827s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000280s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000362s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001994s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008601s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000321s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000279s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000187s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001630s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000245s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2013-02-07T12:54:06+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Attachment&a=fileList
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `rt_attachment` [ RunTime:0.001662s ]
+SQL: SELECT * FROM `rt_attachment` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000257s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000235s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006679s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000221s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000132s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000073s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000194s ]
+
+[ 2013-02-07T12:54:08+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001898s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000212s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000223s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005174s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000376s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000280s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000304s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001863s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000332s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2013-02-07T12:54:09+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001763s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000188s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000134s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.004199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004296s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000176s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000072s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2013-02-07T12:54:14+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.002460s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000295s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005843s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000324s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000301s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000079s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2013-02-07T12:54:16+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001310s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000233s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000392s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006296s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000270s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000133s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000073s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2013-02-07T12:54:18+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001032s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000140s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000129s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002366s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000178s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000134s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000072s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000195s ]
+
+[ 2013-02-07T12:54:42+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001688s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000195s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000325s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005817s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000321s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000290s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000152s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001516s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000194s ]
+
+[ 2013-02-07T12:54:59+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001799s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000110s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000160s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.004385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004485s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000178s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000130s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000072s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2013-02-07T12:55:02+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001490s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000172s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000231s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009038s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000455s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000460s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000226s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002761s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000149s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2013-02-07T12:55:02+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001542s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000102s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000202s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005988s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000229s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000139s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000084s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000195s ]
+
+[ 2013-02-07T12:55:03+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001700s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000199s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000199s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005849s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000611s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000478s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000245s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002745s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2013-02-07T12:55:03+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001272s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000164s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000210s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008843s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000360s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000279s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000149s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2013-02-07T12:55:04+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.000932s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000152s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000203s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000393s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000292s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000156s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001743s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000253s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2013-02-07T12:55:04+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001262s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000099s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000135s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005458s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000180s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000072s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2013-02-07T12:55:05+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.000934s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000215s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000104s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000162s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000130s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000072s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000194s ]
+
+[ 2013-02-07T12:55:06+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001826s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000209s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000234s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005978s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000333s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000279s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000161s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001779s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2013-02-07T12:55:06+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001852s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000202s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000325s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008305s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000280s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000177s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2013-02-07T12:55:06+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.000948s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000201s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005648s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000592s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000478s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000243s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002774s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2013-02-07T12:55:07+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000725s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000086s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000116s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007981s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000326s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000281s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000149s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000248s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2013-02-07T12:55:08+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001662s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000218s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006126s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000593s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000481s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000244s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003034s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2013-02-07T12:55:08+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.000928s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000189s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000225s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007972s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000233s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000099s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2013-02-07T12:55:08+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001038s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000198s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000108s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000198s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.002224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002324s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000167s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000072s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2013-02-07T12:55:09+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001291s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000191s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009158s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000345s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000282s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000150s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001825s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000254s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2013-02-07T12:55:10+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001428s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000165s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000206s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004369s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000278s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000219s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000118s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001245s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2013-02-07T12:55:12+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Attachment&a=fileList
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `rt_attachment` [ RunTime:0.001251s ]
+SQL: SELECT * FROM `rt_attachment` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000195s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000236s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014151s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000222s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000247s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000073s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000118s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2013-02-07T12:55:16+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `rt_category` [ RunTime:0.001735s ]
+SQL: SELECT * FROM `rt_category`  [ RunTime:0.000255s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000257s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005075s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000391s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000286s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000238s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002167s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000224s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2013-02-07T12:55:17+08:00 ] 192.168.0.191 /index.php?g=Admin&m=Content&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `rt_article` [ RunTime:0.001311s ]
+SQL: SELECT * FROM `rt_article` ORDER BY createtime desc LIMIT 15   [ RunTime:0.000179s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+NOTIC: [8] Undefined index: ID /home/return/workspace/www/mycms/MyCms/Runtime/Cache/Admin/e7e61e50beaa97e435156799cfc4a2de.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010203s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000188s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000073s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000198s ]
+

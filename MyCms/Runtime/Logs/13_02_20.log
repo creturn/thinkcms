@@ -1,0 +1,7 @@
+[ 2013-02-20T10:43:37+08:00 ] 192.168.0.198 /index.php?g=Api&m=Coment&a=count
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `rt_comments` [ RunTime:0.000693s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rt_comments` LIMIT 1   [ RunTime:0.020771s ]
+

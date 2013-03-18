@@ -1,0 +1,104 @@
+<include file="Index:head" />
+  
+	<body id="body">
+		<div id="body-wrapper"> <!-- Wrapper for the radial gradient background -->
+		
+		<div id="sidebar"><div id="sidebar-wrapper"> <!-- Sidebar with logo and menu -->
+			
+			<h1 id="sidebar-title"><a href="#">Simpla Admin</a></h1>
+		  
+			<!-- Logo (221px wide) -->
+			<a href="#"><img id="logo" src="__IMG__/logo.png" alt="Simpla Admin logo" /></a>
+		  
+			<!-- Sidebar Profile links -->
+			<div id="profile-links">
+				你好, <a href="#" title="Edit your profile">Admin</a>,你有 <a href="#messages" rel="modal" title="3 Messages">3 消息</a><br />
+				<br />
+				<a href="#" title="View the Site">站点首页</a> | <a href="#" title="Sign Out">退出</a>
+			</div>        
+			
+			<ul id="main-nav">  <!-- Accordion Menu -->
+				
+				<li>
+					<a href="#" class="nav-top-item no-submenu"> <!-- Add the class "no-submenu" to menu items with no sub menu -->
+						后台首页
+					</a>       
+				</li>
+				
+				<li> 
+					<a href="#" class="nav-top-item"> <!-- Add the class "current" to current menu item -->
+					新闻管理
+					</a>
+					<ul>
+						<li>
+							<a onclick="changeNav(this)" href="index.php?g=Admin&m=Category&a=index" target="main_content">栏目管理</a>
+						</li>
+						<li>
+							<a  onclick="changeNav(this)" href="index.php?g=Admin&m=Content&a=index" target="main_content">内容管理</a>
+						</li>  
+						<li>
+							<a  onclick="changeNav(this)" href="index.php?g=Admin&m=Content&a=add" target="main_content">添加文章</a>
+						</li>  
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#" class="nav-top-item">
+						附件管理
+					</a>
+					<ul>
+						<li><a  onclick="changeNav(this)"  href="index.php?g=Admin&m=Attachment&a=fileList" target="main_content">附件列表</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#" class="nav-top-item">
+						会员管理
+					</a>
+					<ul>
+						<li><a href="#">会员资料</a></li>
+						<li><a href="#">添加会员</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#" class="nav-top-item">
+						统计
+					</a>
+					<ul>
+						<li><a href="#">Calendar Overview</a></li>
+						<li><a href="#">Add a new Event</a></li>
+						<li><a href="#">Calendar Settings</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#" class="nav-top-item">
+						站点设置
+					</a>
+					<ul>
+						<li><a href="#">General</a></li>
+						<li><a href="#">Design</a></li>
+						<li><a href="#">Your Profile</a></li>
+						<li><a href="#">Users and Permissions</a></li>
+					</ul>
+				</li>      
+				
+			</ul> <!-- End #main-nav -->
+ 
+		</div></div> <!-- End #sidebar -->
+		
+		<div id="main-content"> <!-- Main Content Section with everything -->
+			
+		    <iframe id="main_content" width="100%" height="95%" src="{:U('Index/main')}"></iframe>
+		</div> <!-- End #main-content -->
+	
+	</div>
+	<script type="text/javascript">
+		function changeNav (item) {
+			$('.current').removeClass('current');
+			$(item).addClass('current');
+		}
+	</script>
+</body>
+</html>
